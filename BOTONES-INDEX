@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+        a {
+            text-decoration: none;
+            display: flex;
+            width: fit-content;
+           background-color: blue.HUB
+           ;
+            gap: 3px;
+            align-items: center;
+            padding: 3px;
+            border-radius: 3px;
+            margin: 5rem 2rem;
+            transition: all 500ms;
+        }
+
+        a:hover {
+            opacity: 0, 9;
+            scale: 1.1;
+        }
+
+        #uno {
+
+            font-weight: bold;
+            color: black;
+
+        }
+
+        #dos {
+            font-weight: bold;
+            color: blueviolet;
+
+        }
+        #tres {
+            font-weight: bold;
+            color: brown;
+
+        }
+        #cuatro{
+            font-weight: bold;
+          color: rgb(179, 255, 0);
+
+        }
+
+        img {
+            width: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="https://www.instagram.com/" target=" _blank" id="uno">instagram
+    <img src="./ICONS/instagram-brands-solid(1).svg"></a>
+
+<a href="https://www.facebook.com/?locale=es_LA" target="_blank" id="dos" >Facebook
+<img src="./ICONS/facebook-brands-solid.svg"></a>
+
+<a href="https://ar.pinterest.com/" target="_blank" id="tres" >Pinterest
+    <img src="./ICONS/pinterest-brands-solid.svg"></a>
+
+    <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" id="cuatro" >whatsapp
+        <img src="https://www.whatsapp.com/?lang=es_LA">
+    </a>
+
+
+</body>
+
+</html>
